@@ -1,0 +1,91 @@
+﻿
+@model List<TravelTestService.Models.HotelListModel>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="mb-4">
+    <h1 class="display-4 mb-5">Check Hotels</h1>
+    <form method="post">
+
+        <div class="row mb-2 col-12">
+
+            @Html.DropDownList("dest", new List<SelectListItem>()
+                                     {
+                                         new SelectListItem() { Text= "Destination 1", Value = "1" },
+                                         new SelectListItem() { Text= "Destination 2", Value = "2" }
+                                     }, new { @id = "dest", @class = "form-control m-b" })
+
+        </div>
+        <div class="row mb-2 col-12">
+           <input type="number" class="form-control" min="1" id="nights" value="@ViewBag.nights" name="nights" />
+        </div>
+        <div class="row mb-2 col-12">
+            <button type="submit" name="btnSubmit" class="form-control" id="btnSubmit"> Submit </button>
+        </div>
+    </form>
+</div>
+
+<div class="row mt-4">
+
+    @if (Model != null)
+    {
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                       
+                                @if (Model.Count() > 0)
+                                {
+                                    foreach (var item in Model)
+                                    {
+                                        string idName = "oRow" + @item.hotel.propertyID;
+                                        <div class="row mb-4" id="@idName">
+                                            <h5>@item.hotel.name</h5> &nbsp;
+                                           
+                                            @for(int i = 0;i<item.hotel.rating;i++)
+                                            {
+                                                <span><b>*</b></span>
+                                            }
+                                                <span>&nbsp;&nbsp;[property id : @item.hotel.propertyID / geo id : @item.hotel.geoId]</span>
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Board Type</th>
+                                                                <th>Rate Type</th>
+                                                                <th>Value</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            @foreach (var subitem in item.rates)
+                                                            {
+                                                                <tr>
+                                                                    <td>@subitem.boardType</td>
+                                                                    <td>@subitem.rateType</td>
+                                                                    <td>@subitem.value</td>
+                                                                </tr>
+                                                            }
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    
+                                            <div class="alert alert-info">
+                                                There are no hotels to display!
+                                            </div>
+                                       
+                                }
+
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+    </div>

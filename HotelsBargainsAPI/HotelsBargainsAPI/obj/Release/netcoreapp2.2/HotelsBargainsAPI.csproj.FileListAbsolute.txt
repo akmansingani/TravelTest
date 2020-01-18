@@ -1,0 +1,14 @@
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\bin\Release\netcoreapp2.2\HotelsBargainsAPI.deps.json
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\bin\Release\netcoreapp2.2\HotelsBargainsAPI.runtimeconfig.json
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\bin\Release\netcoreapp2.2\HotelsBargainsAPI.runtimeconfig.dev.json
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\bin\Release\netcoreapp2.2\HotelsBargainsAPI.dll
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\bin\Release\netcoreapp2.2\HotelsBargainsAPI.pdb
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.csprojAssemblyReference.cache
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.csproj.CoreCompileInputs.cache
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.RazorAssemblyInfo.cache
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.RazorAssemblyInfo.cs
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.AssemblyInfoInputs.cache
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.AssemblyInfo.cs
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.dll
+C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\HotelsBargainsAPI\HotelsBargainsAPI\obj\Release\netcoreapp2.2\HotelsBargainsAPI.pdb
