@@ -27,4 +27,3 @@ C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\TravelTestService\Trav
 C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\TravelTestService\TravelTestService\obj\Debug\netcoreapp2.2\TravelTestService.dll
 C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\TravelTestService\TravelTestService\obj\Debug\netcoreapp2.2\TravelTestService.pdb
 C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\TravelTestService\TravelTestService\obj\Debug\netcoreapp2.2\TravelTestService.csproj.CopyComplete
-C:\Users\Paresh\Documents\All docs\Code\github\TravelTest\TravelTestService\TravelTestService\obj\Debug\netcoreapp2.2\TravelTestService.csprojAssemblyReference.cache
